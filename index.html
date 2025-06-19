@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>LUGX Gaming Template</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/fontawesome.css' %}">
+  <link rel="stylesheet" href="{% static 'css/templatemo-lugx-gaming.css' %}">
+  <link rel="stylesheet" href="{% static 'css/owl.css' %}">
+  <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+  <link rel="stylesheet" href="{% static 'css/flex-slider.css' %}">
+</head>
+
+<body>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="/" class="logo">
+              <img src="{% static 'images/logo.png' %}" alt="LUGX">
+            </a>
+            <!-- ***** Logo End ***** -->
+
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="/" class="active">Home</a></li>
+              <li><a href="shop">Our Shop</a></li>
+              <li><a href="product">Product Details</a></li>
+              <li><a href="contact">Contact Us</a></li>
+              <li><a href="#"><i class="fa fa-search"></i></a></li>
+              <li><a href="#">Sign In</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <div class="main-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="caption header-text">
+            <h6>Welcome to LUGX</h6>
+            <h2>BEST GAMING SITE EVER!</h2>
+            <p>LUGX Gaming is free Bootstrap 5 HTML CSS template for your gaming websites. You can download and use this layout for commercial purposes. Please tell your friends about TemplateMo.</p>
+            <div class="search-input">
+              <form id="search" action="#">
+                <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" />
+                <button role="button">Search Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-2">
+          <div class="right-image">
+            <img src="{% static 'images/banner-image.jpg' %}" alt="Gaming Banner">
+            <span class="price">$22</span>
+            <span class="offer">-40%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <!-- Add more sections here as needed -->
+
+  <!-- ***** Footer Start ***** -->
+  <footer>
+    <div class="container">
+      <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. 
+         <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a>
+      </p>
+    </div>
+  </footer>
+  <!-- ***** Footer End ***** -->
+
+  <!-- JS Files -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/isotope.min.js' %}"></script>
+  <script src="{% static 'js/owl-carousel.js' %}"></script>
+  <script src="{% static 'js/counter.js' %}"></script>
+  <script src="{% static 'js/custom.js' %}"></script>
+
+</body>
+
+</html>
